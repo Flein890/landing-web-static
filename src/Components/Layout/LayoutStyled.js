@@ -2,11 +2,13 @@ import styled from "styled-components"
 import assetBackground from "../../../assets/background/assetBackground.jpg"
 
 export const BackGroundPicture = styled.div`
-background-image: url(${assetBackground});
+background-image: url(${assetBackground}) ;
 background-size:contain;
+background-position: right	;
 background-repeat: no-repeat;
-background-position: right;
 background-color: #283345;
+
+
 
 `
 

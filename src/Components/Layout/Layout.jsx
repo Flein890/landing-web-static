@@ -6,14 +6,19 @@ import { LayoutStyled, BackGroundPicture } from "./LayoutStyled";
 
 function AuxComponent() {
   return (
+    <>
+  
     <BackGroundPicture>
       <LayoutStyled>
       <Navbar/>
       <Hero />
       <Services />
      </LayoutStyled>
-    </BackGroundPicture>
+   
     
+    </BackGroundPicture>
+  
+    </>
   )
 }
 
