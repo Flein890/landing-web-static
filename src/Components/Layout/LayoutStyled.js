@@ -8,9 +8,8 @@ background-position: right	;
 background-repeat: no-repeat;
 background-color: #283345;
 
-
-
 `
+
 
 export const LayoutStyled = styled.div`
 display:flex;

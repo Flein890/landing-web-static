@@ -30,7 +30,9 @@ font-size: 1.2em;`
 export const CardsContainer = styled.div`
 display:flex;
 gap: 24px;
-margin-top: 30px;
+padding-top: 30px;
+justify-content: center;
+background-color: #283345;
 `
 export const Card = styled.div`
 display: flex;
