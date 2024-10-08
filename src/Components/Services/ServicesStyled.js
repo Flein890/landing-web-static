@@ -33,6 +33,7 @@ gap: 24px;
 padding-top: 30px;
 justify-content: center;
 background-color: #283345;
+margin-bottom:-80px;
 `
 export const Card = styled.div`
 display: flex;
