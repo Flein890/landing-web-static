@@ -16,6 +16,10 @@ gap: 100px;
 justify-content: start;
 align-items: center;
 padding-bottom: 50px;
+@media (max-width: 768px) {
+    flex-direction: column;
+    padding:25px;
+}
 
 `
 
@@ -44,6 +48,9 @@ display: flex;
 flex-direction: row;
 gap: 30px;
 width: 50%;
+@media (max-width: 768px) {
+    width: 100%;
+}
 `
 export const LinksA = styled.a`
 text-decoration: none;

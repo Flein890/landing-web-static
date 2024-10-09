@@ -8,6 +8,11 @@ padding:100px;
 color:#fff;
 gap: 60px;
 
+@media (max-width: 768px) {
+padding: 100px 20px
+
+}
+
 `
 
 export const ImgContainer = styled.div`
@@ -17,12 +22,18 @@ justify-content: center;
 align-items: center;
 gap: 50px;
 object-fit: contain;
+@media (max-width: 576px) {
+    gap: 26px;
+}
 `
 
 export const Img = styled.img`
-width: 150px;
+max-width: 150px;
 filter: grayscale(100%);
 opacity: .8;
+@media (max-width: 976px) {
+    max-width: 100px;
+}
 `
 
 export const CardsContainer = styled.div`
@@ -32,6 +43,12 @@ justify-content: center;
 font-family: "Circular-Std-300", sans-serif;
 height: 250px;
 margin-bottom:-150px;
+@media (max-width: 976px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content:  center;
+    height: 500px;
+}
 `
 export const Card = styled.div`
 display: flex;
@@ -44,6 +61,13 @@ border-radius: 6px;
 /* padding: 40px 25px; */
 padding-left: 25px;
 width: 600px;
+@media (max-width: 976px) {
+    padding: 25px 25px;
+}
+@media (max-width: 768px) {
+    width: 100%;
+}
+
 `                   
 export const Card2 = styled.div`
 display: flex;
@@ -51,6 +75,9 @@ background-color: #3871FF;
 align-items: end;
 border-radius: 6px;
 width: 600px;
+@media (max-width: 768px) {
+    width: 100%;
+}
 
 
 `
@@ -63,6 +90,9 @@ justify-content: center;
 width: 350px;
 height: 100%;
 padding-left: 25px;
+@media (max-width: 576px) {
+    padding: 25px 25px;
+}
 `
 export const FirstContent = styled.div`
 display:flex;
@@ -70,10 +100,17 @@ flex-direction:column;
 gap: 15px;
 width: 350px;
 /* height: 100%; */
+@media (max-width: 576px) {
+    width: 100%;
+}
 `
 
 export const ImgPhone = styled.img`
 width: 250px;
+object-fit: contain;
+@media (max-width: 576px) {
+    width: 100px;
+}
 `
 
 export const CardTitle = styled.h3`

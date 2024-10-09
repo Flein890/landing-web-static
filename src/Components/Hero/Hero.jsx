@@ -1,8 +1,7 @@
 import React from 'react'
-import arrow from '../../../assets/svgs/arrow.svg'
 import Button from 'react-bootstrap/Button'
 import { HeroStyled,HeroContainer,ButtonsContainer,Title,Paragraph } from './HeroStyled'
-
+import { Buttonn,ButtonBlue } from './HeroStyled'
 
 function Hero() {
   return (
@@ -12,8 +11,8 @@ function Hero() {
         <Paragraph>We strongly believe that communication, trust and transparency are the essential elements of successful business relationships. Ready for the journey?</Paragraph>
       </HeroContainer>
       <ButtonsContainer>
-        <Button style={{borderRadius: '3px',fontSize: '1.2em',padding:'10px 25px'}} size='lg' variant="outline-secondary">Learn More</Button>{' '}
-        <Button style={{borderRadius: '3px',fontSize: '1.2em',padding:'10px 25px'}} size='lg'>Our projects</Button>{' '}
+        <Buttonn>Learn More</Buttonn>
+        <ButtonBlue>Our projects</ButtonBlue>
       </ButtonsContainer>
     </HeroStyled>
   )

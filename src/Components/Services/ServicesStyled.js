@@ -19,11 +19,18 @@ text-align: center;
 `
 export const ServiceTitle = styled.h2`
 color: #fff;
-font-size: 2em;`
+font-size: 2em;
+@media (max-width: 576px) {
+    font-size: 1.5em;
+}
+`
 
 export const ServiceParagraph = styled.p`
 color: #aaa;
-font-size: 1.2em;`
+font-size: 1.2em;
+@media (max-width: 576px) {
+    font-size: 1em;
+}`
 
 // cards
 
@@ -34,6 +41,12 @@ padding-top: 30px;
 justify-content: center;
 background-color: #283345;
 margin-bottom:-80px;
+@media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
 `
 export const Card = styled.div`
 display: flex;
@@ -45,8 +58,13 @@ padding:40px 36px;
 width: 360px;
 border-radius: 3px;
 gap: 20px;
-width: 1/3 * 100%;
+
 box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+@media (max-width: 768px) {
+    padding: 30px 26px;
+    width: 300px;
+}
 
 `
 export const InfoContainer = styled.div`

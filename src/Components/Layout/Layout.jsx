@@ -6,7 +6,7 @@ import { LayoutStyled, BackGroundPicture } from "./LayoutStyled";
 import ServiceCards from "../Services/ServiceCards";
 import Tech from "../TechStack/Tech";
 import Brands from "../Brands/Brands";
-import Footer from "../../Footer/Footer";
+import Footer from "../Footer/Footer";
 
 function AuxComponent() {
   return (

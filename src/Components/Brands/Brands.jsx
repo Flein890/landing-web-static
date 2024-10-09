@@ -14,9 +14,11 @@ function Brands() {
              <Img src={tnw} alt="tnw" />
              <Img src={google} alt="google" />
              <Img src={nike} alt="Nike" />
+        </ImgContainer>
+        <ImgContainer>
              <Img src={airbnb} alt="airbnb" />
              <Img src={itNews} alt="ItNewsAfrica" />
-        </ImgContainer>
+             </ImgContainer>
 
         <CardsContainer>
             <Card>
